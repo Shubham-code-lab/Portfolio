@@ -1,10 +1,16 @@
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+<div class="h-screen bg-green-600">
+  <Header class="h-full" />
+</div>
 </template>
 <script>
+import Header from './components/Header.vue'
+
 export default {
+components: { Header },
+setup(){
+
+}
 
 }
 </script>
